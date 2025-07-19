@@ -1,0 +1,3514 @@
+[
+  {
+    "stop_name": "Alewife",
+    "stop_id": "place-alfcl",
+    "coordinates": {
+      "latitude": 42.39583,
+      "longitude": -71.141287
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-davis",
+        "stop_name": "Davis",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Davis",
+    "stop_id": "place-davis",
+    "coordinates": {
+      "latitude": 42.39674,
+      "longitude": -71.121815
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-alfcl",
+        "stop_name": "Alewife",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-portr",
+        "stop_name": "Porter",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Porter",
+    "stop_id": "place-portr",
+    "coordinates": {
+      "latitude": 42.3884,
+      "longitude": -71.119149
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-davis",
+        "stop_name": "Davis",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-harsq",
+        "stop_name": "Harvard",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Harvard",
+    "stop_id": "place-harsq",
+    "coordinates": {
+      "latitude": 42.373362,
+      "longitude": -71.118956
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-portr",
+        "stop_name": "Porter",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-cntsq",
+        "stop_name": "Central",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Central",
+    "stop_id": "place-cntsq",
+    "coordinates": {
+      "latitude": 42.365486,
+      "longitude": -71.103802
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-harsq",
+        "stop_name": "Harvard",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-knncl",
+        "stop_name": "Kendall/MIT",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Kendall/MIT",
+    "stop_id": "place-knncl",
+    "coordinates": {
+      "latitude": 42.362491,
+      "longitude": -71.086176
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-cntsq",
+        "stop_name": "Central",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-chmnl",
+        "stop_name": "Charles/MGH",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Charles/MGH",
+    "stop_id": "place-chmnl",
+    "coordinates": {
+      "latitude": 42.361166,
+      "longitude": -71.070628
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-knncl",
+        "stop_name": "Kendall/MIT",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-pktrm",
+        "stop_name": "Park Street",
+        "lines": [
+          "Green-C",
+          "Green-B",
+          "Red",
+          "Green-E",
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Park Street",
+    "stop_id": "place-pktrm",
+    "coordinates": {
+      "latitude": 42.356395,
+      "longitude": -71.062424
+    },
+    "lines": [
+      "Green-C",
+      "Green-B",
+      "Red",
+      "Green-E",
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-chmnl",
+        "stop_name": "Charles/MGH",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-dwnxg",
+        "stop_name": "Downtown Crossing",
+        "lines": [
+          "Orange",
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-gover",
+        "stop_name": "Government Center",
+        "lines": [
+          "Green-C",
+          "Blue",
+          "Green-B",
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-boyls",
+        "stop_name": "Boylston",
+        "lines": [
+          "Green-E",
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Downtown Crossing",
+    "stop_id": "place-dwnxg",
+    "coordinates": {
+      "latitude": 42.355518,
+      "longitude": -71.060225
+    },
+    "lines": [
+      "Orange",
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-pktrm",
+        "stop_name": "Park Street",
+        "lines": [
+          "Green-C",
+          "Green-B",
+          "Red",
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-sstat",
+        "stop_name": "South Station",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-chncl",
+        "stop_name": "Chinatown",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-state",
+        "stop_name": "State",
+        "lines": [
+          "Orange",
+          "Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "South Station",
+    "stop_id": "place-sstat",
+    "coordinates": {
+      "latitude": 42.352271,
+      "longitude": -71.055242
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-dwnxg",
+        "stop_name": "Downtown Crossing",
+        "lines": [
+          "Orange",
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-brdwy",
+        "stop_name": "Broadway",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Broadway",
+    "stop_id": "place-brdwy",
+    "coordinates": {
+      "latitude": 42.342622,
+      "longitude": -71.056967
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-sstat",
+        "stop_name": "South Station",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-andrw",
+        "stop_name": "Andrew",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Andrew",
+    "stop_id": "place-andrw",
+    "coordinates": {
+      "latitude": 42.330154,
+      "longitude": -71.057655
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-brdwy",
+        "stop_name": "Broadway",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-jfk",
+        "stop_name": "JFK/UMass",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "JFK/UMass",
+    "stop_id": "place-jfk",
+    "coordinates": {
+      "latitude": 42.320685,
+      "longitude": -71.052391
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-andrw",
+        "stop_name": "Andrew",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-shmnl",
+        "stop_name": "Savin Hill",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Savin Hill",
+    "stop_id": "place-shmnl",
+    "coordinates": {
+      "latitude": 42.31129,
+      "longitude": -71.053331
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-jfk",
+        "stop_name": "JFK/UMass",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-fldcr",
+        "stop_name": "Fields Corner",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Fields Corner",
+    "stop_id": "place-fldcr",
+    "coordinates": {
+      "latitude": 42.300093,
+      "longitude": -71.061667
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-shmnl",
+        "stop_name": "Savin Hill",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-smmnl",
+        "stop_name": "Shawmut",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Shawmut",
+    "stop_id": "place-smmnl",
+    "coordinates": {
+      "latitude": 42.293126,
+      "longitude": -71.065738
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-fldcr",
+        "stop_name": "Fields Corner",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-asmnl",
+        "stop_name": "Ashmont",
+        "lines": [
+          "Mattapan",
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Ashmont",
+    "stop_id": "place-asmnl",
+    "coordinates": {
+      "latitude": 42.28452,
+      "longitude": -71.063777
+    },
+    "lines": [
+      "Mattapan",
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-smmnl",
+        "stop_name": "Shawmut",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-nqncy",
+        "stop_name": "North Quincy",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-cedgr",
+        "stop_name": "Cedar Grove",
+        "lines": [
+          "Mattapan"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "North Quincy",
+    "stop_id": "place-nqncy",
+    "coordinates": {
+      "latitude": 42.275275,
+      "longitude": -71.029583
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-asmnl",
+        "stop_name": "Ashmont",
+        "lines": [
+          "Mattapan",
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-wlsta",
+        "stop_name": "Wollaston",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Wollaston",
+    "stop_id": "place-wlsta",
+    "coordinates": {
+      "latitude": 42.266514,
+      "longitude": -71.020337
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-nqncy",
+        "stop_name": "North Quincy",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-qnctr",
+        "stop_name": "Quincy Center",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Quincy Center",
+    "stop_id": "place-qnctr",
+    "coordinates": {
+      "latitude": 42.251809,
+      "longitude": -71.005409
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-wlsta",
+        "stop_name": "Wollaston",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-qamnl",
+        "stop_name": "Quincy Adams",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Quincy Adams",
+    "stop_id": "place-qamnl",
+    "coordinates": {
+      "latitude": 42.233391,
+      "longitude": -71.007153
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-qnctr",
+        "stop_name": "Quincy Center",
+        "lines": [
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-brntn",
+        "stop_name": "Braintree",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Braintree",
+    "stop_id": "place-brntn",
+    "coordinates": {
+      "latitude": 42.207854,
+      "longitude": -71.001138
+    },
+    "lines": [
+      "Red"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-qamnl",
+        "stop_name": "Quincy Adams",
+        "lines": [
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Cedar Grove",
+    "stop_id": "place-cedgr",
+    "coordinates": {
+      "latitude": 42.279629,
+      "longitude": -71.060394
+    },
+    "lines": [
+      "Mattapan"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-asmnl",
+        "stop_name": "Ashmont",
+        "lines": [
+          "Mattapan",
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-butlr",
+        "stop_name": "Butler",
+        "lines": [
+          "Mattapan"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Butler",
+    "stop_id": "place-butlr",
+    "coordinates": {
+      "latitude": 42.272429,
+      "longitude": -71.062519
+    },
+    "lines": [
+      "Mattapan"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-cedgr",
+        "stop_name": "Cedar Grove",
+        "lines": [
+          "Mattapan"
+        ]
+      },
+      {
+        "stop_id": "place-miltt",
+        "stop_name": "Milton",
+        "lines": [
+          "Mattapan"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Milton",
+    "stop_id": "place-miltt",
+    "coordinates": {
+      "latitude": 42.270349,
+      "longitude": -71.067266
+    },
+    "lines": [
+      "Mattapan"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-butlr",
+        "stop_name": "Butler",
+        "lines": [
+          "Mattapan"
+        ]
+      },
+      {
+        "stop_id": "place-cenav",
+        "stop_name": "Central Avenue",
+        "lines": [
+          "Mattapan"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Central Avenue",
+    "stop_id": "place-cenav",
+    "coordinates": {
+      "latitude": 42.270027,
+      "longitude": -71.073444
+    },
+    "lines": [
+      "Mattapan"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-miltt",
+        "stop_name": "Milton",
+        "lines": [
+          "Mattapan"
+        ]
+      },
+      {
+        "stop_id": "place-valrd",
+        "stop_name": "Valley Road",
+        "lines": [
+          "Mattapan"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Valley Road",
+    "stop_id": "place-valrd",
+    "coordinates": {
+      "latitude": 42.268347,
+      "longitude": -71.081343
+    },
+    "lines": [
+      "Mattapan"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-cenav",
+        "stop_name": "Central Avenue",
+        "lines": [
+          "Mattapan"
+        ]
+      },
+      {
+        "stop_id": "place-capst",
+        "stop_name": "Capen Street",
+        "lines": [
+          "Mattapan"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Capen Street",
+    "stop_id": "place-capst",
+    "coordinates": {
+      "latitude": 42.267563,
+      "longitude": -71.087338
+    },
+    "lines": [
+      "Mattapan"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-valrd",
+        "stop_name": "Valley Road",
+        "lines": [
+          "Mattapan"
+        ]
+      },
+      {
+        "stop_id": "place-matt",
+        "stop_name": "Mattapan",
+        "lines": [
+          "Mattapan"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Mattapan",
+    "stop_id": "place-matt",
+    "coordinates": {
+      "latitude": 42.26762,
+      "longitude": -71.092486
+    },
+    "lines": [
+      "Mattapan"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-capst",
+        "stop_name": "Capen Street",
+        "lines": [
+          "Mattapan"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Forest Hills",
+    "stop_id": "place-forhl",
+    "coordinates": {
+      "latitude": 42.300713,
+      "longitude": -71.113943
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-grnst",
+        "stop_name": "Green Street",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Green Street",
+    "stop_id": "place-grnst",
+    "coordinates": {
+      "latitude": 42.310525,
+      "longitude": -71.107414
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-forhl",
+        "stop_name": "Forest Hills",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-sbmnl",
+        "stop_name": "Stony Brook",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Stony Brook",
+    "stop_id": "place-sbmnl",
+    "coordinates": {
+      "latitude": 42.317062,
+      "longitude": -71.104248
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-grnst",
+        "stop_name": "Green Street",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-jaksn",
+        "stop_name": "Jackson Square",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Jackson Square",
+    "stop_id": "place-jaksn",
+    "coordinates": {
+      "latitude": 42.323132,
+      "longitude": -71.099592
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-sbmnl",
+        "stop_name": "Stony Brook",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-rcmnl",
+        "stop_name": "Roxbury Crossing",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Roxbury Crossing",
+    "stop_id": "place-rcmnl",
+    "coordinates": {
+      "latitude": 42.331397,
+      "longitude": -71.095451
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-jaksn",
+        "stop_name": "Jackson Square",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-rugg",
+        "stop_name": "Ruggles",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Ruggles",
+    "stop_id": "place-rugg",
+    "coordinates": {
+      "latitude": 42.336377,
+      "longitude": -71.088961
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-rcmnl",
+        "stop_name": "Roxbury Crossing",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-masta",
+        "stop_name": "Massachusetts Avenue",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Massachusetts Avenue",
+    "stop_id": "place-masta",
+    "coordinates": {
+      "latitude": 42.341512,
+      "longitude": -71.083423
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-rugg",
+        "stop_name": "Ruggles",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-bbsta",
+        "stop_name": "Back Bay",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Back Bay",
+    "stop_id": "place-bbsta",
+    "coordinates": {
+      "latitude": 42.34735,
+      "longitude": -71.075727
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-masta",
+        "stop_name": "Massachusetts Avenue",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-tumnl",
+        "stop_name": "Tufts Medical Center",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Tufts Medical Center",
+    "stop_id": "place-tumnl",
+    "coordinates": {
+      "latitude": 42.349662,
+      "longitude": -71.063917
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-bbsta",
+        "stop_name": "Back Bay",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-chncl",
+        "stop_name": "Chinatown",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Chinatown",
+    "stop_id": "place-chncl",
+    "coordinates": {
+      "latitude": 42.352547,
+      "longitude": -71.062752
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-tumnl",
+        "stop_name": "Tufts Medical Center",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-dwnxg",
+        "stop_name": "Downtown Crossing",
+        "lines": [
+          "Orange",
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "State",
+    "stop_id": "place-state",
+    "coordinates": {
+      "latitude": 42.358978,
+      "longitude": -71.057598
+    },
+    "lines": [
+      "Orange",
+      "Blue"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-dwnxg",
+        "stop_name": "Downtown Crossing",
+        "lines": [
+          "Orange",
+          "Red"
+        ]
+      },
+      {
+        "stop_id": "place-haecl",
+        "stop_name": "Haymarket",
+        "lines": [
+          "Orange",
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-gover",
+        "stop_name": "Government Center",
+        "lines": [
+          "Green-C",
+          "Blue",
+          "Green-B",
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-aqucl",
+        "stop_name": "Aquarium",
+        "lines": [
+          "Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Haymarket",
+    "stop_id": "place-haecl",
+    "coordinates": {
+      "latitude": 42.363021,
+      "longitude": -71.05829
+    },
+    "lines": [
+      "Orange",
+      "Green-E",
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-state",
+        "stop_name": "State",
+        "lines": [
+          "Orange",
+          "Blue"
+        ]
+      },
+      {
+        "stop_id": "place-north",
+        "stop_name": "North Station",
+        "lines": [
+          "Orange",
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-gover",
+        "stop_name": "Government Center",
+        "lines": [
+          "Green-C",
+          "Blue",
+          "Green-B",
+          "Green-E",
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "North Station",
+    "stop_id": "place-north",
+    "coordinates": {
+      "latitude": 42.365577,
+      "longitude": -71.06129
+    },
+    "lines": [
+      "Orange",
+      "Green-E",
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-haecl",
+        "stop_name": "Haymarket",
+        "lines": [
+          "Orange",
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-ccmnl",
+        "stop_name": "Community College",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-spmnl",
+        "stop_name": "Science Park/West End",
+        "lines": [
+          "Green-E",
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Community College",
+    "stop_id": "place-ccmnl",
+    "coordinates": {
+      "latitude": 42.373622,
+      "longitude": -71.069533
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-north",
+        "stop_name": "North Station",
+        "lines": [
+          "Orange",
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-sull",
+        "stop_name": "Sullivan Square",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Sullivan Square",
+    "stop_id": "place-sull",
+    "coordinates": {
+      "latitude": 42.383975,
+      "longitude": -71.076994
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-ccmnl",
+        "stop_name": "Community College",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-astao",
+        "stop_name": "Assembly",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Assembly",
+    "stop_id": "place-astao",
+    "coordinates": {
+      "latitude": 42.392811,
+      "longitude": -71.077257
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-sull",
+        "stop_name": "Sullivan Square",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-welln",
+        "stop_name": "Wellington",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Wellington",
+    "stop_id": "place-welln",
+    "coordinates": {
+      "latitude": 42.40237,
+      "longitude": -71.077082
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-astao",
+        "stop_name": "Assembly",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-mlmnl",
+        "stop_name": "Malden Center",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Malden Center",
+    "stop_id": "place-mlmnl",
+    "coordinates": {
+      "latitude": 42.426632,
+      "longitude": -71.07411
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-welln",
+        "stop_name": "Wellington",
+        "lines": [
+          "Orange"
+        ]
+      },
+      {
+        "stop_id": "place-ogmnl",
+        "stop_name": "Oak Grove",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Oak Grove",
+    "stop_id": "place-ogmnl",
+    "coordinates": {
+      "latitude": 42.43668,
+      "longitude": -71.071097
+    },
+    "lines": [
+      "Orange"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-mlmnl",
+        "stop_name": "Malden Center",
+        "lines": [
+          "Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Government Center",
+    "stop_id": "place-gover",
+    "coordinates": {
+      "latitude": 42.359705,
+      "longitude": -71.059215
+    },
+    "lines": [
+      "Green-C",
+      "Blue",
+      "Green-B",
+      "Green-E",
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-pktrm",
+        "stop_name": "Park Street",
+        "lines": [
+          "Green-C",
+          "Green-B",
+          "Red",
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-haecl",
+        "stop_name": "Haymarket",
+        "lines": [
+          "Orange",
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-bomnl",
+        "stop_name": "Bowdoin",
+        "lines": [
+          "Blue"
+        ]
+      },
+      {
+        "stop_id": "place-state",
+        "stop_name": "State",
+        "lines": [
+          "Orange",
+          "Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Boylston",
+    "stop_id": "place-boyls",
+    "coordinates": {
+      "latitude": 42.35302,
+      "longitude": -71.06459
+    },
+    "lines": [
+      "Green-E",
+      "Green-D",
+      "Green-B",
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-pktrm",
+        "stop_name": "Park Street",
+        "lines": [
+          "Green-C",
+          "Green-B",
+          "Red",
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-armnl",
+        "stop_name": "Arlington",
+        "lines": [
+          "Green-E",
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Arlington",
+    "stop_id": "place-armnl",
+    "coordinates": {
+      "latitude": 42.351902,
+      "longitude": -71.070893
+    },
+    "lines": [
+      "Green-E",
+      "Green-D",
+      "Green-B",
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-boyls",
+        "stop_name": "Boylston",
+        "lines": [
+          "Green-E",
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-coecl",
+        "stop_name": "Copley",
+        "lines": [
+          "Green-E",
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Copley",
+    "stop_id": "place-coecl",
+    "coordinates": {
+      "latitude": 42.349974,
+      "longitude": -71.077447
+    },
+    "lines": [
+      "Green-E",
+      "Green-D",
+      "Green-B",
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-armnl",
+        "stop_name": "Arlington",
+        "lines": [
+          "Green-E",
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-hymnl",
+        "stop_name": "Hynes Convention Center",
+        "lines": [
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-prmnl",
+        "stop_name": "Prudential",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Hynes Convention Center",
+    "stop_id": "place-hymnl",
+    "coordinates": {
+      "latitude": 42.347888,
+      "longitude": -71.087903
+    },
+    "lines": [
+      "Green-D",
+      "Green-B",
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-coecl",
+        "stop_name": "Copley",
+        "lines": [
+          "Green-E",
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-kencl",
+        "stop_name": "Kenmore",
+        "lines": [
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Kenmore",
+    "stop_id": "place-kencl",
+    "coordinates": {
+      "latitude": 42.348949,
+      "longitude": -71.095169
+    },
+    "lines": [
+      "Green-D",
+      "Green-B",
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-hymnl",
+        "stop_name": "Hynes Convention Center",
+        "lines": [
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-bland",
+        "stop_name": "Blandford Street",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-smary",
+        "stop_name": "Saint Mary's Street",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-fenwy",
+        "stop_name": "Fenway",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Blandford Street",
+    "stop_id": "place-bland",
+    "coordinates": {
+      "latitude": 42.349293,
+      "longitude": -71.100258
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-kencl",
+        "stop_name": "Kenmore",
+        "lines": [
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-buest",
+        "stop_name": "Boston University East",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Boston University East",
+    "stop_id": "place-buest",
+    "coordinates": {
+      "latitude": 42.349735,
+      "longitude": -71.103889
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-bland",
+        "stop_name": "Blandford Street",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-bucen",
+        "stop_name": "Boston University Central",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Boston University Central",
+    "stop_id": "place-bucen",
+    "coordinates": {
+      "latitude": 42.350082,
+      "longitude": -71.106865
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-buest",
+        "stop_name": "Boston University East",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-amory",
+        "stop_name": "Amory Street",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Amory Street",
+    "stop_id": "place-amory",
+    "coordinates": {
+      "latitude": 42.350992,
+      "longitude": -71.114748
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-bucen",
+        "stop_name": "Boston University Central",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-babck",
+        "stop_name": "Babcock Street",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Babcock Street",
+    "stop_id": "place-babck",
+    "coordinates": {
+      "latitude": 42.351616,
+      "longitude": -71.119924
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-amory",
+        "stop_name": "Amory Street",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-brico",
+        "stop_name": "Packard's Corner",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Packard's Corner",
+    "stop_id": "place-brico",
+    "coordinates": {
+      "latitude": 42.351967,
+      "longitude": -71.125031
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-babck",
+        "stop_name": "Babcock Street",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-harvd",
+        "stop_name": "Harvard Avenue",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Harvard Avenue",
+    "stop_id": "place-harvd",
+    "coordinates": {
+      "latitude": 42.350243,
+      "longitude": -71.131355
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-brico",
+        "stop_name": "Packard's Corner",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-grigg",
+        "stop_name": "Griggs Street",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Griggs Street",
+    "stop_id": "place-grigg",
+    "coordinates": {
+      "latitude": 42.348545,
+      "longitude": -71.134949
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-harvd",
+        "stop_name": "Harvard Avenue",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-alsgr",
+        "stop_name": "Allston Street",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Allston Street",
+    "stop_id": "place-alsgr",
+    "coordinates": {
+      "latitude": 42.348701,
+      "longitude": -71.137955
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-grigg",
+        "stop_name": "Griggs Street",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-wrnst",
+        "stop_name": "Warren Street",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Warren Street",
+    "stop_id": "place-wrnst",
+    "coordinates": {
+      "latitude": 42.348343,
+      "longitude": -71.140457
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-alsgr",
+        "stop_name": "Allston Street",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-wascm",
+        "stop_name": "Washington Street",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Washington Street",
+    "stop_id": "place-wascm",
+    "coordinates": {
+      "latitude": 42.343864,
+      "longitude": -71.142853
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-wrnst",
+        "stop_name": "Warren Street",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-sthld",
+        "stop_name": "Sutherland Road",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Sutherland Road",
+    "stop_id": "place-sthld",
+    "coordinates": {
+      "latitude": 42.341614,
+      "longitude": -71.146202
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-wascm",
+        "stop_name": "Washington Street",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-chswk",
+        "stop_name": "Chiswick Road",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Chiswick Road",
+    "stop_id": "place-chswk",
+    "coordinates": {
+      "latitude": 42.340805,
+      "longitude": -71.150711
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-sthld",
+        "stop_name": "Sutherland Road",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-chill",
+        "stop_name": "Chestnut Hill Avenue",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Chestnut Hill Avenue",
+    "stop_id": "place-chill",
+    "coordinates": {
+      "latitude": 42.338169,
+      "longitude": -71.15316
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-chswk",
+        "stop_name": "Chiswick Road",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-sougr",
+        "stop_name": "South Street",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "South Street",
+    "stop_id": "place-sougr",
+    "coordinates": {
+      "latitude": 42.3396,
+      "longitude": -71.157661
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-chill",
+        "stop_name": "Chestnut Hill Avenue",
+        "lines": [
+          "Green-B"
+        ]
+      },
+      {
+        "stop_id": "place-lake",
+        "stop_name": "Boston College",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Boston College",
+    "stop_id": "place-lake",
+    "coordinates": {
+      "latitude": 42.340081,
+      "longitude": -71.166769
+    },
+    "lines": [
+      "Green-B"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-sougr",
+        "stop_name": "South Street",
+        "lines": [
+          "Green-B"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Cleveland Circle",
+    "stop_id": "place-clmnl",
+    "coordinates": {
+      "latitude": 42.336142,
+      "longitude": -71.149326
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-engav",
+        "stop_name": "Englewood Avenue",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Englewood Avenue",
+    "stop_id": "place-engav",
+    "coordinates": {
+      "latitude": 42.336971,
+      "longitude": -71.14566
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-clmnl",
+        "stop_name": "Cleveland Circle",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-denrd",
+        "stop_name": "Dean Road",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Dean Road",
+    "stop_id": "place-denrd",
+    "coordinates": {
+      "latitude": 42.337807,
+      "longitude": -71.141853
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-engav",
+        "stop_name": "Englewood Avenue",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-tapst",
+        "stop_name": "Tappan Street",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Tappan Street",
+    "stop_id": "place-tapst",
+    "coordinates": {
+      "latitude": 42.338459,
+      "longitude": -71.138702
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-denrd",
+        "stop_name": "Dean Road",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-bcnwa",
+        "stop_name": "Washington Square",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Washington Square",
+    "stop_id": "place-bcnwa",
+    "coordinates": {
+      "latitude": 42.339394,
+      "longitude": -71.13533
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-tapst",
+        "stop_name": "Tappan Street",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-fbkst",
+        "stop_name": "Fairbanks Street",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Fairbanks Street",
+    "stop_id": "place-fbkst",
+    "coordinates": {
+      "latitude": 42.339725,
+      "longitude": -71.131073
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-bcnwa",
+        "stop_name": "Washington Square",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-bndhl",
+        "stop_name": "Brandon Hall",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Brandon Hall",
+    "stop_id": "place-bndhl",
+    "coordinates": {
+      "latitude": 42.340023,
+      "longitude": -71.129082
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-fbkst",
+        "stop_name": "Fairbanks Street",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-sumav",
+        "stop_name": "Summit Avenue",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Summit Avenue",
+    "stop_id": "place-sumav",
+    "coordinates": {
+      "latitude": 42.34111,
+      "longitude": -71.12561
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-bndhl",
+        "stop_name": "Brandon Hall",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-cool",
+        "stop_name": "Coolidge Corner",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Coolidge Corner",
+    "stop_id": "place-cool",
+    "coordinates": {
+      "latitude": 42.342116,
+      "longitude": -71.121263
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-sumav",
+        "stop_name": "Summit Avenue",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-stpul",
+        "stop_name": "Saint Paul Street",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Saint Paul Street",
+    "stop_id": "place-stpul",
+    "coordinates": {
+      "latitude": 42.343327,
+      "longitude": -71.116997
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-cool",
+        "stop_name": "Coolidge Corner",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-kntst",
+        "stop_name": "Kent Street",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Kent Street",
+    "stop_id": "place-kntst",
+    "coordinates": {
+      "latitude": 42.344074,
+      "longitude": -71.114197
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-stpul",
+        "stop_name": "Saint Paul Street",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-hwsst",
+        "stop_name": "Hawes Street",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Hawes Street",
+    "stop_id": "place-hwsst",
+    "coordinates": {
+      "latitude": 42.344906,
+      "longitude": -71.111145
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-kntst",
+        "stop_name": "Kent Street",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-smary",
+        "stop_name": "Saint Mary's Street",
+        "lines": [
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Saint Mary's Street",
+    "stop_id": "place-smary",
+    "coordinates": {
+      "latitude": 42.345974,
+      "longitude": -71.107353
+    },
+    "lines": [
+      "Green-C"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-hwsst",
+        "stop_name": "Hawes Street",
+        "lines": [
+          "Green-C"
+        ]
+      },
+      {
+        "stop_id": "place-kencl",
+        "stop_name": "Kenmore",
+        "lines": [
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Riverside",
+    "stop_id": "place-river",
+    "coordinates": {
+      "latitude": 42.337352,
+      "longitude": -71.252685
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-woodl",
+        "stop_name": "Woodland",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Woodland",
+    "stop_id": "place-woodl",
+    "coordinates": {
+      "latitude": 42.332902,
+      "longitude": -71.243362
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-river",
+        "stop_name": "Riverside",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-waban",
+        "stop_name": "Waban",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Waban",
+    "stop_id": "place-waban",
+    "coordinates": {
+      "latitude": 42.325845,
+      "longitude": -71.230609
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-woodl",
+        "stop_name": "Woodland",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-eliot",
+        "stop_name": "Eliot",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Eliot",
+    "stop_id": "place-eliot",
+    "coordinates": {
+      "latitude": 42.319045,
+      "longitude": -71.216684
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-waban",
+        "stop_name": "Waban",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-newtn",
+        "stop_name": "Newton Highlands",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Newton Highlands",
+    "stop_id": "place-newtn",
+    "coordinates": {
+      "latitude": 42.322381,
+      "longitude": -71.205509
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-eliot",
+        "stop_name": "Eliot",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-newto",
+        "stop_name": "Newton Centre",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Newton Centre",
+    "stop_id": "place-newto",
+    "coordinates": {
+      "latitude": 42.329443,
+      "longitude": -71.192414
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-newtn",
+        "stop_name": "Newton Highlands",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-chhil",
+        "stop_name": "Chestnut Hill",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Chestnut Hill",
+    "stop_id": "place-chhil",
+    "coordinates": {
+      "latitude": 42.326753,
+      "longitude": -71.164699
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-newto",
+        "stop_name": "Newton Centre",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-rsmnl",
+        "stop_name": "Reservoir",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Reservoir",
+    "stop_id": "place-rsmnl",
+    "coordinates": {
+      "latitude": 42.335088,
+      "longitude": -71.148758
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-chhil",
+        "stop_name": "Chestnut Hill",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-bcnfd",
+        "stop_name": "Beaconsfield",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Beaconsfield",
+    "stop_id": "place-bcnfd",
+    "coordinates": {
+      "latitude": 42.335765,
+      "longitude": -71.140455
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-rsmnl",
+        "stop_name": "Reservoir",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-brkhl",
+        "stop_name": "Brookline Hills",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Brookline Hills",
+    "stop_id": "place-brkhl",
+    "coordinates": {
+      "latitude": 42.331316,
+      "longitude": -71.126683
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-bcnfd",
+        "stop_name": "Beaconsfield",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-bvmnl",
+        "stop_name": "Brookline Village",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Brookline Village",
+    "stop_id": "place-bvmnl",
+    "coordinates": {
+      "latitude": 42.332608,
+      "longitude": -71.116857
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-brkhl",
+        "stop_name": "Brookline Hills",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-longw",
+        "stop_name": "Longwood",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Longwood",
+    "stop_id": "place-longw",
+    "coordinates": {
+      "latitude": 42.341702,
+      "longitude": -71.109956
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-bvmnl",
+        "stop_name": "Brookline Village",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-fenwy",
+        "stop_name": "Fenway",
+        "lines": [
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Fenway",
+    "stop_id": "place-fenwy",
+    "coordinates": {
+      "latitude": 42.345403,
+      "longitude": -71.104213
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-longw",
+        "stop_name": "Longwood",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-kencl",
+        "stop_name": "Kenmore",
+        "lines": [
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Science Park/West End",
+    "stop_id": "place-spmnl",
+    "coordinates": {
+      "latitude": 42.366664,
+      "longitude": -71.067666
+    },
+    "lines": [
+      "Green-E",
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-north",
+        "stop_name": "North Station",
+        "lines": [
+          "Orange",
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-lech",
+        "stop_name": "Lechmere",
+        "lines": [
+          "Green-E",
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Lechmere",
+    "stop_id": "place-lech",
+    "coordinates": {
+      "latitude": 42.371572,
+      "longitude": -71.076584
+    },
+    "lines": [
+      "Green-E",
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-spmnl",
+        "stop_name": "Science Park/West End",
+        "lines": [
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-unsqu",
+        "stop_name": "Union Square",
+        "lines": [
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-esomr",
+        "stop_name": "East Somerville",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Union Square",
+    "stop_id": "place-unsqu",
+    "coordinates": {
+      "latitude": 42.377359,
+      "longitude": -71.094761
+    },
+    "lines": [
+      "Green-D"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-lech",
+        "stop_name": "Lechmere",
+        "lines": [
+          "Green-E",
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Heath Street",
+    "stop_id": "place-hsmnl",
+    "coordinates": {
+      "latitude": 42.328316,
+      "longitude": -71.110252
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-bckhl",
+        "stop_name": "Back of the Hill",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Back of the Hill",
+    "stop_id": "place-bckhl",
+    "coordinates": {
+      "latitude": 42.330139,
+      "longitude": -71.111313
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-hsmnl",
+        "stop_name": "Heath Street",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-rvrwy",
+        "stop_name": "Riverway",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Riverway",
+    "stop_id": "place-rvrwy",
+    "coordinates": {
+      "latitude": 42.331684,
+      "longitude": -71.111931
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-bckhl",
+        "stop_name": "Back of the Hill",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-mispk",
+        "stop_name": "Mission Park",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Mission Park",
+    "stop_id": "place-mispk",
+    "coordinates": {
+      "latitude": 42.333195,
+      "longitude": -71.109756
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-rvrwy",
+        "stop_name": "Riverway",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-fenwd",
+        "stop_name": "Fenwood Road",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Fenwood Road",
+    "stop_id": "place-fenwd",
+    "coordinates": {
+      "latitude": 42.333706,
+      "longitude": -71.105728
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-mispk",
+        "stop_name": "Mission Park",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-brmnl",
+        "stop_name": "Brigham Circle",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Brigham Circle",
+    "stop_id": "place-brmnl",
+    "coordinates": {
+      "latitude": 42.334229,
+      "longitude": -71.104609
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-fenwd",
+        "stop_name": "Fenwood Road",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-lngmd",
+        "stop_name": "Longwood Medical Area",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Longwood Medical Area",
+    "stop_id": "place-lngmd",
+    "coordinates": {
+      "latitude": 42.33596,
+      "longitude": -71.100052
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-brmnl",
+        "stop_name": "Brigham Circle",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-mfa",
+        "stop_name": "Museum of Fine Arts",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Museum of Fine Arts",
+    "stop_id": "place-mfa",
+    "coordinates": {
+      "latitude": 42.337711,
+      "longitude": -71.095512
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-lngmd",
+        "stop_name": "Longwood Medical Area",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-nuniv",
+        "stop_name": "Northeastern University",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Northeastern University",
+    "stop_id": "place-nuniv",
+    "coordinates": {
+      "latitude": 42.340401,
+      "longitude": -71.088806
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-mfa",
+        "stop_name": "Museum of Fine Arts",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-symcl",
+        "stop_name": "Symphony",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Symphony",
+    "stop_id": "place-symcl",
+    "coordinates": {
+      "latitude": 42.342687,
+      "longitude": -71.085056
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-nuniv",
+        "stop_name": "Northeastern University",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-prmnl",
+        "stop_name": "Prudential",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Prudential",
+    "stop_id": "place-prmnl",
+    "coordinates": {
+      "latitude": 42.34557,
+      "longitude": -71.081696
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-symcl",
+        "stop_name": "Symphony",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-coecl",
+        "stop_name": "Copley",
+        "lines": [
+          "Green-E",
+          "Green-D",
+          "Green-B",
+          "Green-C"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "East Somerville",
+    "stop_id": "place-esomr",
+    "coordinates": {
+      "latitude": 42.379467,
+      "longitude": -71.086625
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-lech",
+        "stop_name": "Lechmere",
+        "lines": [
+          "Green-E",
+          "Green-D"
+        ]
+      },
+      {
+        "stop_id": "place-gilmn",
+        "stop_name": "Gilman Square",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Gilman Square",
+    "stop_id": "place-gilmn",
+    "coordinates": {
+      "latitude": 42.387928,
+      "longitude": -71.096766
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-esomr",
+        "stop_name": "East Somerville",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-mgngl",
+        "stop_name": "Magoun Square",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Magoun Square",
+    "stop_id": "place-mgngl",
+    "coordinates": {
+      "latitude": 42.393682,
+      "longitude": -71.106388
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-gilmn",
+        "stop_name": "Gilman Square",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-balsq",
+        "stop_name": "Ball Square",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Ball Square",
+    "stop_id": "place-balsq",
+    "coordinates": {
+      "latitude": 42.399889,
+      "longitude": -71.111003
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-mgngl",
+        "stop_name": "Magoun Square",
+        "lines": [
+          "Green-E"
+        ]
+      },
+      {
+        "stop_id": "place-mdftf",
+        "stop_name": "Medford/Tufts",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Medford/Tufts",
+    "stop_id": "place-mdftf",
+    "coordinates": {
+      "latitude": 42.407975,
+      "longitude": -71.117044
+    },
+    "lines": [
+      "Green-E"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-balsq",
+        "stop_name": "Ball Square",
+        "lines": [
+          "Green-E"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Bowdoin",
+    "stop_id": "place-bomnl",
+    "coordinates": {
+      "latitude": 42.361365,
+      "longitude": -71.062037
+    },
+    "lines": [
+      "Blue"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-gover",
+        "stop_name": "Government Center",
+        "lines": [
+          "Green-C",
+          "Blue",
+          "Green-B",
+          "Green-E",
+          "Green-D"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Aquarium",
+    "stop_id": "place-aqucl",
+    "coordinates": {
+      "latitude": 42.359784,
+      "longitude": -71.051652
+    },
+    "lines": [
+      "Blue"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-state",
+        "stop_name": "State",
+        "lines": [
+          "Orange",
+          "Blue"
+        ]
+      },
+      {
+        "stop_id": "place-mvbcl",
+        "stop_name": "Maverick",
+        "lines": [
+          "Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Maverick",
+    "stop_id": "place-mvbcl",
+    "coordinates": {
+      "latitude": 42.369119,
+      "longitude": -71.03953
+    },
+    "lines": [
+      "Blue"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-aqucl",
+        "stop_name": "Aquarium",
+        "lines": [
+          "Blue"
+        ]
+      },
+      {
+        "stop_id": "place-aport",
+        "stop_name": "Airport",
+        "lines": [
+          "Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Airport",
+    "stop_id": "place-aport",
+    "coordinates": {
+      "latitude": 42.374262,
+      "longitude": -71.030395
+    },
+    "lines": [
+      "Blue"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-mvbcl",
+        "stop_name": "Maverick",
+        "lines": [
+          "Blue"
+        ]
+      },
+      {
+        "stop_id": "place-wimnl",
+        "stop_name": "Wood Island",
+        "lines": [
+          "Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Wood Island",
+    "stop_id": "place-wimnl",
+    "coordinates": {
+      "latitude": 42.37964,
+      "longitude": -71.022865
+    },
+    "lines": [
+      "Blue"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-aport",
+        "stop_name": "Airport",
+        "lines": [
+          "Blue"
+        ]
+      },
+      {
+        "stop_id": "place-orhte",
+        "stop_name": "Orient Heights",
+        "lines": [
+          "Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Orient Heights",
+    "stop_id": "place-orhte",
+    "coordinates": {
+      "latitude": 42.386867,
+      "longitude": -71.004736
+    },
+    "lines": [
+      "Blue"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-wimnl",
+        "stop_name": "Wood Island",
+        "lines": [
+          "Blue"
+        ]
+      },
+      {
+        "stop_id": "place-sdmnl",
+        "stop_name": "Suffolk Downs",
+        "lines": [
+          "Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Suffolk Downs",
+    "stop_id": "place-sdmnl",
+    "coordinates": {
+      "latitude": 42.390501,
+      "longitude": -70.997123
+    },
+    "lines": [
+      "Blue"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-orhte",
+        "stop_name": "Orient Heights",
+        "lines": [
+          "Blue"
+        ]
+      },
+      {
+        "stop_id": "place-bmmnl",
+        "stop_name": "Beachmont",
+        "lines": [
+          "Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Beachmont",
+    "stop_id": "place-bmmnl",
+    "coordinates": {
+      "latitude": 42.397542,
+      "longitude": -70.992319
+    },
+    "lines": [
+      "Blue"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-sdmnl",
+        "stop_name": "Suffolk Downs",
+        "lines": [
+          "Blue"
+        ]
+      },
+      {
+        "stop_id": "place-rbmnl",
+        "stop_name": "Revere Beach",
+        "lines": [
+          "Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Revere Beach",
+    "stop_id": "place-rbmnl",
+    "coordinates": {
+      "latitude": 42.407843,
+      "longitude": -70.992533
+    },
+    "lines": [
+      "Blue"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-bmmnl",
+        "stop_name": "Beachmont",
+        "lines": [
+          "Blue"
+        ]
+      },
+      {
+        "stop_id": "place-wondl",
+        "stop_name": "Wonderland",
+        "lines": [
+          "Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Wonderland",
+    "stop_id": "place-wondl",
+    "coordinates": {
+      "latitude": 42.41342,
+      "longitude": -70.991648
+    },
+    "lines": [
+      "Blue"
+    ],
+    "adjacent_stops": [
+      {
+        "stop_id": "place-rbmnl",
+        "stop_name": "Revere Beach",
+        "lines": [
+          "Blue"
+        ]
+      }
+    ]
+  }
+]

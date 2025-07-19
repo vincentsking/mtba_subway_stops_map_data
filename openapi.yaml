@@ -1,0 +1,20 @@
+openapi: 3.1.0
+info:
+  title: MBTA Subway Stop Map Location Data API
+  version: 0.1.0
+paths:
+  /stops:
+    get:
+      summary: 'Get MBTA subway stops with coordinates, lines, and adjacent stops'
+      operationId: get_subway_stops_stops_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                items:
+                  additionalProperties: true
+                  type: object
+                type: array
+                title: Response Get Subway Stops Stops Get

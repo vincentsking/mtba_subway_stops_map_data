@@ -1,0 +1,282 @@
+[
+  {
+    "attributes": {
+      "address": "Dorchester Ave and Ashmont St, Boston, MA 02124",
+      "at_street": null,
+      "description": null,
+      "latitude": 42.28452,
+      "location_type": 1,
+      "longitude": -71.063777,
+      "municipality": "Boston",
+      "name": "Ashmont",
+      "on_street": null,
+      "platform_code": null,
+      "platform_name": null,
+      "vehicle_type": null,
+      "wheelchair_boarding": 1
+    },
+    "id": "place-asmnl",
+    "links": {
+      "self": "/stops/place-asmnl"
+    },
+    "relationships": {
+      "facilities": {
+        "links": {
+          "related": "/facilities/?filter[stop]=place-asmnl"
+        }
+      },
+      "parent_station": {
+        "data": null
+      },
+      "zone": {
+        "data": null
+      }
+    },
+    "type": "stop"
+  },
+  {
+    "attributes": {
+      "address": "Fellsway St and Milton St, Dorchester, MA 02124",
+      "at_street": null,
+      "description": null,
+      "latitude": 42.279629,
+      "location_type": 1,
+      "longitude": -71.060394,
+      "municipality": "Boston",
+      "name": "Cedar Grove",
+      "on_street": null,
+      "platform_code": null,
+      "platform_name": null,
+      "vehicle_type": null,
+      "wheelchair_boarding": 1
+    },
+    "id": "place-cedgr",
+    "links": {
+      "self": "/stops/place-cedgr"
+    },
+    "relationships": {
+      "facilities": {
+        "links": {
+          "related": "/facilities/?filter[stop]=place-cedgr"
+        }
+      },
+      "parent_station": {
+        "data": null
+      },
+      "zone": {
+        "data": null
+      }
+    },
+    "type": "stop"
+  },
+  {
+    "attributes": {
+      "address": "Butler St and Branchfield St, Dorchester, MA 02124",
+      "at_street": null,
+      "description": null,
+      "latitude": 42.272429,
+      "location_type": 1,
+      "longitude": -71.062519,
+      "municipality": "Boston",
+      "name": "Butler",
+      "on_street": null,
+      "platform_code": null,
+      "platform_name": null,
+      "vehicle_type": null,
+      "wheelchair_boarding": 1
+    },
+    "id": "place-butlr",
+    "links": {
+      "self": "/stops/place-butlr"
+    },
+    "relationships": {
+      "facilities": {
+        "links": {
+          "related": "/facilities/?filter[stop]=place-butlr"
+        }
+      },
+      "parent_station": {
+        "data": null
+      },
+      "zone": {
+        "data": null
+      }
+    },
+    "type": "stop"
+  },
+  {
+    "attributes": {
+      "address": "1 Adams St, Milton, MA 02186",
+      "at_street": null,
+      "description": null,
+      "latitude": 42.270349,
+      "location_type": 1,
+      "longitude": -71.067266,
+      "municipality": "Milton",
+      "name": "Milton",
+      "on_street": null,
+      "platform_code": null,
+      "platform_name": null,
+      "vehicle_type": null,
+      "wheelchair_boarding": 1
+    },
+    "id": "place-miltt",
+    "links": {
+      "self": "/stops/place-miltt"
+    },
+    "relationships": {
+      "facilities": {
+        "links": {
+          "related": "/facilities/?filter[stop]=place-miltt"
+        }
+      },
+      "parent_station": {
+        "data": null
+      },
+      "zone": {
+        "data": null
+      }
+    },
+    "type": "stop"
+  },
+  {
+    "attributes": {
+      "address": "23 Central Ave, Milton, MA 02186",
+      "at_street": null,
+      "description": null,
+      "latitude": 42.270027,
+      "location_type": 1,
+      "longitude": -71.073444,
+      "municipality": "Milton",
+      "name": "Central Avenue",
+      "on_street": null,
+      "platform_code": null,
+      "platform_name": null,
+      "vehicle_type": null,
+      "wheelchair_boarding": 1
+    },
+    "id": "place-cenav",
+    "links": {
+      "self": "/stops/place-cenav"
+    },
+    "relationships": {
+      "facilities": {
+        "links": {
+          "related": "/facilities/?filter[stop]=place-cenav"
+        }
+      },
+      "parent_station": {
+        "data": null
+      },
+      "zone": {
+        "data": null
+      }
+    },
+    "type": "stop"
+  },
+  {
+    "attributes": {
+      "address": "291 Valley Rd, Milton, MA 02186",
+      "at_street": null,
+      "description": null,
+      "latitude": 42.268347,
+      "location_type": 1,
+      "longitude": -71.081343,
+      "municipality": "Milton",
+      "name": "Valley Road",
+      "on_street": null,
+      "platform_code": null,
+      "platform_name": null,
+      "vehicle_type": null,
+      "wheelchair_boarding": 2
+    },
+    "id": "place-valrd",
+    "links": {
+      "self": "/stops/place-valrd"
+    },
+    "relationships": {
+      "facilities": {
+        "links": {
+          "related": "/facilities/?filter[stop]=place-valrd"
+        }
+      },
+      "parent_station": {
+        "data": null
+      },
+      "zone": {
+        "data": null
+      }
+    },
+    "type": "stop"
+  },
+  {
+    "attributes": {
+      "address": "50 Capen St, Milton, MA 02186",
+      "at_street": null,
+      "description": null,
+      "latitude": 42.267563,
+      "location_type": 1,
+      "longitude": -71.087338,
+      "municipality": "Milton",
+      "name": "Capen Street",
+      "on_street": null,
+      "platform_code": null,
+      "platform_name": null,
+      "vehicle_type": null,
+      "wheelchair_boarding": 1
+    },
+    "id": "place-capst",
+    "links": {
+      "self": "/stops/place-capst"
+    },
+    "relationships": {
+      "facilities": {
+        "links": {
+          "related": "/facilities/?filter[stop]=place-capst"
+        }
+      },
+      "parent_station": {
+        "data": null
+      },
+      "zone": {
+        "data": null
+      }
+    },
+    "type": "stop"
+  },
+  {
+    "attributes": {
+      "address": "500 River St, Boston, MA 02126",
+      "at_street": null,
+      "description": null,
+      "latitude": 42.26762,
+      "location_type": 1,
+      "longitude": -71.092486,
+      "municipality": "Boston",
+      "name": "Mattapan",
+      "on_street": null,
+      "platform_code": null,
+      "platform_name": null,
+      "vehicle_type": null,
+      "wheelchair_boarding": 1
+    },
+    "id": "place-matt",
+    "links": {
+      "self": "/stops/place-matt"
+    },
+    "relationships": {
+      "facilities": {
+        "links": {
+          "related": "/facilities/?filter[stop]=place-matt"
+        }
+      },
+      "parent_station": {
+        "data": null
+      },
+      "zone": {
+        "data": null
+      }
+    },
+    "type": "stop"
+  }
+]
