@@ -31,6 +31,29 @@ Out of scope:
   - Adjacency calculations
   - Error handling for missing or malformed data
 
+### Running the tests 
+example output
+```
+> pytest test_main.py -vv
+=============================================================================================== test session starts ================================================================================================
+platform darwin -- Python 3.12.11, pytest-8.4.1, pluggy-1.6.0 -- python3.12
+cachedir: .pytest_cache
+rootdir: /Users/vincent.s.king/Development/mtba_subway_stops_map_data
+plugins: anyio-4.9.0
+collected 10 items                                                                                                                                                                                                 
+test_main.py::test_make_a_request_success PASSED                                                                                                                                                             [ 10%]
+test_main.py::test_make_a_request_429_retry PASSED                                                                                                                                                           [ 20%]
+test_main.py::test_get_stops_with_mock_data PASSED                                                                                                                                                           [ 30%]
+test_main.py::test_get_stops_empty_lines PASSED                                                                                                                                                              [ 40%]
+test_main.py::test_get_stops_failure_case PASSED                                                                                                                                                             [ 50%]
+test_main.py::test_stop_id_and_name_mapping PASSED                                                                                                                                                           [ 60%]
+test_main.py::test_adjacency_mutuality PASSED                                                                                                                                                                [ 70%]
+test_main.py::test_coordinates_are_floats PASSED                                                                                                                                                             [ 80%]
+test_main.py::test_duplicate_stops_across_lines PASSED                                                                                                                                                       [ 90%]
+test_main.py::test_big_baseline_test PASSED                                                                                                                                                                  [100%]
+
+================================================================================================ 10 passed in 8.26s ================================================================================================
+```
 ### Integration Tests
 - Run API endpoints using `TestClient` from FastAPI
 - Validate full response shape and content using known MBTA route IDs
