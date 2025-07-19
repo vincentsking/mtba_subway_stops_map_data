@@ -100,8 +100,6 @@ This approach allows for:
 - Sample outputs compared to real MBTA subway map
 - Verified JSON response format and completeness
 
----
-
 ## Observability
 
 - Logging of MBTA API fetch errors and failed requests

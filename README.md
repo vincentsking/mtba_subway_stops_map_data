@@ -125,16 +125,63 @@ The original approach attempted to derive stop sequences by pulling trip schedul
 
 For reference, I kept ChatGPT's original code in the repo under `ai_orig.py`, but ended up scrapping most of it in favor of a more simple, reliable and testable solution.
 
+### Limitations
 
-##  Limitations
-- No persistent cache or database; queries MBTA API on each call
+While the current version of the program is functional, several limitations exist:
 
+2. **No Persistent Caching**
 
-## Future Improvements
+   * Each request to the API fetches fresh data without caching. This can lead to slower performance and unnecessary load on the MBTA API.
 
-- Add persistent caching or DB backend
-- CI pipeline with GitHub Actions
-- Add filtering/query params to the endpoint
+3. **Limited Error Handling**
+
+   * The current error handling is minimal and may not gracefully recover from all failure modes, such as network timeouts, invalid API responses, or missing fields.
+
+4. **No Frontend Interface**
+
+   * There is no graphical or web-based user interface. Data is returned in raw JSON format, which may not be user-friendly for non-technical users.
+
+5. **Hardcoded API Parameters**
+
+   * Some aspects of the request behavior may be hardcoded, limiting flexibility for filtering, sorting, or interacting dynamically with different endpoints.
+
+6. **Not Production-Hardened**
+
+   * The program lacks features like authentication, rate limiting, logging, and deployment configuration that would be expected in a production-grade service.
+
+7. **No Formal Test Coverage**
+
+   * While the code may be manually tested, automated unit or integration tests are currently limited or absent.
+
+### Future Improvements
+
+If I were to continue working on this program, I would focus on the following enhancements:
+
+1. **Expand API Functionality**
+
+   * Add additional endpoints to support filtering by route, direction, or schedule time.
+   * Provide real-time subway updates by integrating with MBTA’s live data feeds.
+
+2. **Introduce Caching**
+
+   * Use in-memory caching (e.g., `functools.lru_cache` or `cachetools`) to minimize redundant MBTA API requests.
+   * Consider Redis or other backends for scalable, persistent caching.
+
+3. **Optimize Deployment**
+
+   * Package the app with Docker for reproducible environments.
+   * Set up a CI/CD pipeline using GitHub Actions or similar to automate testing and deployment.
+
+4. **Improve Documentation and Setup**
+
+   * Expand the README with usage examples and troubleshooting tips.
+   * Provide a setup script using `pyenv`, `pipenv` for consistent Python environment management.
+
+5. **Frontend Visualization**
+
+   * Build a simple web frontend to visualize subway stops and live updates on a map
+
+These improvements would make the program more reliable, maintainable, and user-friendly—while paving the way for broader usage and contributions.
 
 ## 📄 License
 
