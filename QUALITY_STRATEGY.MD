@@ -64,8 +64,6 @@ test_main.py::test_big_baseline_test PASSED                                     
 - Stops with no adjacent stations (ends of lines)
 
 ### Manual Verification for the Big Baseline Test
-Here’s a cleaned-up and professional version for your **Quality Strategy** document section:
-
 ### Baseline Snapshot and Mocking Strategy
 
 To ensure consistent and repeatable testing, I added a mechanism to run `main.py` in a **mock data generation mode** by setting:
