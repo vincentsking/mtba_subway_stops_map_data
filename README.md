@@ -19,7 +19,7 @@ This project provides a simple REST API that exposes subway stop data for the MB
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/mbta-subway-api.git
+git clone https://github.com/vincentsking/mtba_subway_stops_map_data.git
 cd mbta-subway-api
 pip install -r requirements.txt
 python main.py
