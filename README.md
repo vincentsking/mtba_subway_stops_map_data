@@ -125,6 +125,19 @@ The original approach attempted to derive stop sequences by pulling trip schedul
 
 For reference, I kept ChatGPT's original code in the repo under `ai_orig.py`, but ended up scrapping most of it in favor of a more simple, reliable and testable solution.
 
+
+My final solution is in main.py,  
+which in a consists of obtaining a list of all subwaylines via /routes?filter[type]=0,1
+then for each subway line obtain each stop via /stops?filter[route]={subway_line} (which are in the proper sequence)
+then loop through each stop details and pull out the information required (gps , name) and constucting the adjacent stops and lines
+then finalizing the results list with the following details
+```"stop_name"
+   "stop_id"
+   "coordinates"
+   "lines"
+   "adjacent_stops"
+```
+
 ### Limitations
 
 While the current version of the program is functional, several limitations exist:
